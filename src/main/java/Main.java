@@ -4,7 +4,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        TimeConverterCalculator tMC = new TimeConverterCalculator();
-        //tMC.splitSortDigitalTime();
+        TimeConverter tC = new TimeConverter();
+        tC.runTimeConverter();
+
     }
 }
